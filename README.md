@@ -1,8 +1,24 @@
 # Parameter-Efficient Fine-Tuning for Foundation Models
 
-## paper list of PEFT
+<p align="center">
+📃 <a href="https://arxiv.org/abs/2501.13787" target="_blank">[ReST-MCTS*]</a> 
+🌐 <a href="https://awesome-peft-for-foundation-models.github.io/" target="_blank">[Website]</a> <br>
+</p>
 
-### [Content](#content)
+![GitHub stars](https://img.shields.io/github/stars/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models.svg?color=red&style=for-the-badge) 
+![GitHub forks](https://img.shields.io/github/forks/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models.svg?style=for-the-badge) 
+![GitHub activity](https://img.shields.io/github/last-commit/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models?color=yellow&style=for-the-badge) 
+![GitHub issues](https://img.shields.io/github/issues/THUDM/Awesome-Parameter-Efficient-Fine-Tuning-for-Foundation-Models?style=for-the-badge)
+
+
+## 🔥 <span id="head1"> *News* </span>
+* [2025/01/23]  "**Parameter-Efficient Fine-Tuning for Foundation Models**" repo is created.
+
+## 📝 <span id="head1"> *Introduction* </span>
+This survey aims to provide a comprehensive overview of PEFT techniques applied to diverse FMs and address critical gaps in understanding the techniques, trends, and applications. This survey provides a valuable resource for both newcomers and experts seeking to understand and use the power of PEFT across FMs.
+
+
+## 📚 <span id="head1"> *Table of Contents* </span>
 
 <table>
 
@@ -14,11 +30,18 @@
 
 </table>
 
+## <span id="head1"> *Keywords* </span>
+![LLM](https://img.shields.io/badge/LLM-blue) Large Language Model.
 
+![VFM](https://img.shields.io/badge/VFM-green) Vision Foundation Model.
+
+![VLM](https://img.shields.io/badge/VLM-yellow) Vision Language Model.
+
+![VGM](https://img.shields.io/badge/VGM-orange) Visual Content Generation Model.
 
 ### [Selective PEFT](#content)
 
-#### LLM
+![LLM](https://img.shields.io/badge/LLM-blue)
 
 ##### Specific Selection
 
@@ -80,7 +103,7 @@
    [[paper]](https://www.aminer.cn/pub/619715fd5244ab9dcb185a4d/training-neural-networks-with-fixed-sparse-masks)
    [[code]]
 
-#### VFM
+![VFM](https://img.shields.io/badge/VFM-green)
 
 1. **Learning Transferable Visual Models From Natural Language Supervision**. **ICML 2021**.
 
@@ -96,7 +119,7 @@
    [[paper]](https://www.aminer.cn/pub/64d074c23fda6d7f06ce9796/Convolutions%20Die%20Hard:%20Open-Vocabulary%20Segmentation%20with%20Single%20Frozen%20%20Convolutional%20CLIP)
    [[code]](https://github.com/bytedance/fc-clip)
 
-#### VGM
+![VGM](https://img.shields.io/badge/VGM-orange)
 
 1. **Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation**. **CoRR 2023**.
 
@@ -105,7 +128,7 @@
    [[paper]](https://www.aminer.cn/pub/63a51c5d90e50fcafde93c1b/tune-a-video-one-shot-tuning-of-image-diffusion-models-for-text)
    [[code]]
 
-#### VLM
+![VLM](https://img.shields.io/badge/VLM-yellow)
 1. **Tuning LayerNorm in Attention: Towards Efficient Multi-Modal LLM Finetuning**. **arXiv 2023**.
 
    *Bingchen Zhao, Haoqin Tu, Chen Wei, Jieru Mei, Cihang Xie*
@@ -116,7 +139,7 @@
 
 ### [Addictive PEFT](#content)
 
-#### LLM
+![LLM](https://img.shields.io/badge/LLM-blue)
 
 ##### Adapter
 
@@ -184,7 +207,7 @@
    [[paper]](https://www.aminer.cn/pub/62a94e065aee126c0f9c02cd/lst-ladder-side-tuning-for-parameter-and-memory-efficient-transfer-learning)
    [[code]](https://github.com/ylsung/Ladder-Side-Tuning)
 
-#### VFM
+![VFM](https://img.shields.io/badge/VFM-green)
 
 1. **Convolutional Bypasses Are Better Vision Transformer Adapters**. **arXiv 2022**.
 
@@ -222,7 +245,7 @@
    [[code]](https://github.com/heekhero/DTL)
    
 
-#### VGM
+![VGM](https://img.shields.io/badge/VGM-orange)
 
 1. **T2I-Adapter: Learning Adapters to Dig out More Controllable Ability for Text-to-Image Diffusion Models**. **AAAI 2024**.
 
@@ -261,7 +284,7 @@
    [[code]](https://github.com/dvlab-research/ControlNeXt)
    
 
-#### VLM
+![VLM](https://img.shields.io/badge/VLM-yellow)
 
 1. **LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention**. **CVPR 2023**.
 
@@ -295,7 +318,7 @@
 
 ### [Prompt PEFT](#content)
 
-#### LLM
+![LLM](https://img.shields.io/badge/LLM-blue)
 
 ##### Hard Prompt
 
@@ -380,7 +403,7 @@
    [[paper]](https://www.aminer.cn/pub/6191cfa05244ab9dcb16be43/on-transferability-of-prompt-tuning-for-natural-language-processing)
    [[code]](https://github.com/thunlp/Prompt-Transferability)
    
-#### VFM
+![VFM](https://img.shields.io/badge/VFM-green)
 
 1. **Exploring Visual Prompts for Communicating Directional Awareness to Kindergarten Children**. **International journal of human-computer studies 2019**.
 
@@ -425,7 +448,7 @@
    [[paper]](https://aminer.cn/pub/6417d04190e50fcafd83e0dc/LION:%20Implicit%20Vision%20Prompt%20Tuning)
    [[code]]
    
-#### VGM
+![VGM](https://img.shields.io/badge/VGM-orange)
 
 1. **An Image is Worth One Word: Personalizing Text-to-Image Generation Using Textual Inversion**. **arXiv 2022**.
 
@@ -434,7 +457,7 @@
    [[paper]](https://www.aminer.cn/pub/63d7ae8490e50fcafdad2025/an-image-is-worth-one-word-personalizing-text-to-image-generation-using)
    [[code]](https://textual-inversion.github.io)
    
-#### VLM
+![VLM](https://img.shields.io/badge/VLM-yellow)
 
 1. **Learning to Prompt for Vision-Language Models**. **IJCV 2022**.
 
@@ -460,7 +483,7 @@
 
 ### [Reparameterization PEFT](#content)
 
-#### LLM
+![LLM](https://img.shields.io/badge/LLM-blue)
 
 1. **LoRA: Low-Rank Adaptation of Large Language Models**. **CoRR 2022**.
 
@@ -469,37 +492,35 @@
    [[paper]](https://www.aminer.cn/pub/60cdafae91e011329faa2589/lora-low-rank-adaptation-of-large-language-models)
    [[code]](https://github.com/microsoft/LoRA)
    
-#### VFM
-
-1. **QLoRA: Efficient Finetuning of Quantized LLMs**. **NeurIPS 2023**.
+2. **QLoRA: Efficient Finetuning of Quantized LLMs**. **NeurIPS 2023**.
 
    *Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer*
 
    [[paper]](https://www.aminer.cn/pub/646d8643d68f896efa0a326e/QLoRA:%20Efficient%20Finetuning%20of%20Quantized%20LLMs)
    [[code]](https://github.com/artidoro/qlora)
    
-2. **LoRA-FA: Memory-efficient Low-rank Adaptation for Large Language Models Fine-tuning**. **CoRR 2023**.
+3. **LoRA-FA: Memory-efficient Low-rank Adaptation for Large Language Models Fine-tuning**. **CoRR 2023**.
 
    *Longteng Zhang, Lin Zhang, Shaohuai Shi, Xiaowen Chu, Bo Li*
 
    [[paper]](https://aminer.cn/pub/64f561813fda6d7f06f26c50/lora-fa-memory-efficient-low-rank-adaptation-for-large-language-models-fine)
    [[code]]
    
-3. **Delta-LoRA: Fine-Tuning High-Rank Parameters with the Delta of Low-Rank Matrices**. **CoRR 2023**.
+4. **Delta-LoRA: Fine-Tuning High-Rank Parameters with the Delta of Low-Rank Matrices**. **CoRR 2023**.
 
    *Bojia Zi, Xianbiao Qi, Lingzhi Wang, Jianan Wang, Kam-Fai Wong, Lei Zhang*
 
    [[paper]](https://www.aminer.cn/pub/64f7fc433fda6d7f06f42b86/delta-lora-fine-tuning-high-rank-parameters-with-the-delta-of-low)
    [[code]]
    
-4. **Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CoRR 2021**.
+5. **Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CoRR 2021**.
 
    *Peiyu Liu, Ze-Feng Gao, Wayne Xin Zhao, Z. Y. Xie, Zhong-Yi Lu, Ji-Rong Wen*
 
    [[paper]](https://www.aminer.cn/pub/60bec50591e0118491817782/enabling-lightweight-fine-tuning-for-pre-trained-language-model-compression-based-on)
    [[code]](https://github.com/RUCAIBox/MPOP)
    
-#### VFM
+![VFM](https://img.shields.io/badge/VFM-green)
 
 1. **1% VS 100%: Parameter-Efficient Low Rank Adapter for Dense Predictions**. **CVPR 2023**.
 
@@ -508,7 +529,7 @@
    [[paper]](https://aminer.cn/pub/6464af57d68f896efa351267/vs-parameter-efficient-low-rank-adapter-for-dense-predictions)
    [[code]]
    
-#### VGM
+![VGM](https://img.shields.io/badge/VGM-orange)
 
 1. **Navigating Text-To-Image Customization: from LyCORIS Fine-Tuning to Model Evaluation**. **ICLR 2024**.
 
@@ -517,7 +538,6 @@
    [[paper]](https://www.aminer.cn/pub/65ea8c2a13fb2c6cf630e80e/navigating-text-to-image-customization-from-lycoris-fine-tuning-to-model-evaluation)
    [[code]]
    
-
 2. **DiffuseKronA: A Parameter Efficient Fine-tuning Method for Personalized Diffusion Models**. **CoRR 2024**.
 
    *Shyam Marjit, Harshit Singh, Nityanand Mathur, Sayak Paul, Chia-Mu Yu, Pin-Yu Chen*
@@ -548,7 +568,7 @@
    
 ### [Hybrid PEFT](#content)
 
-#### LLM
+![LLM](https://img.shields.io/badge/LLM-blue)
 
 1. **UniPELT: A Unified Framework for Parameter-Efficient Language Model Tuning**. **ACL 2022**.
 
@@ -578,7 +598,7 @@
    [[paper]](https://www.aminer.cn/pub/63dcdb422c26941cf00b63f4/parameter-efficient-fine-tuning-design-spaces)
    [[code]](https://github.com/amazon-science/peft-design-spaces)
    
-#### VFM
+![VFM](https://img.shields.io/badge/VFM-green)
 
 1. **Neural Prompt Search**. **TPAMI 2024**.
 
@@ -587,7 +607,7 @@
    [[paper]](https://www.aminer.cn/pub/62a2b6955aee126c0f4d8e7b/neural-prompt-search)
    [[code]](https://github.com/Davidzhangyuanhan/NOAH)
    
-#### VGM
+![VGM](https://img.shields.io/badge/VGM-orange)
 
 1. **DiffFit: Unlocking Transferability of Large Diffusion Models Via Simple Parameter-Efficient Fine-Tuning**. **ICCV 2023**.
 
@@ -606,3 +626,12 @@
 ## Citation
 
 If you find our survey and repository helpful, please kindly cite our paper:
+
+```
+@article{zhang2025parameter,
+  title={Parameter-Efficient Fine-Tuning for Foundation Models},
+  author={Zhang, Dan and Feng, Tao and Xue, Lilong and Wang, Yuandong and Dong, Yuxiao and Tang, Jie},
+  journal={arXiv preprint arXiv:2501.13787},
+  year={2025}
+}
+```
