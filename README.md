@@ -1,7 +1,7 @@
 # Parameter-Efficient Fine-Tuning for Foundation Models
 
 <p align="center">
-📃 <a href="https://arxiv.org/abs/2501.13787" target="_blank">[ReST-MCTS*]</a> 
+📃 <a href="https://arxiv.org/abs/2501.13787" target="_blank">[Paper]</a> 
 🌐 <a href="https://awesome-peft-for-foundation-models.github.io/" target="_blank">[Website]</a> <br>
 </p>
 
@@ -57,7 +57,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Elad Ben-Zaken, Shauli Ravfogel, Yoav Goldberg*
 
    [[paper]](https://www.aminer.cn/pub/60d1586491e011c16f0cb484/bitfit-simple-parameter-efficient-fine-tuning-for-transformer-based-masked-language-models)
-   [[code]]
+   [[code]](https://github.com/benzakenelad/BitFit)
 
 3. **Parameter-Efficient Tuning with Special Token Adaptation**. **EACL 2023**.
 
@@ -80,7 +80,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Yuhan Liu, Saurabh Agarwal, Shivaram Venkataraman*
 
    [[paper]](https://www.aminer.cn/pub/601a774291e0111e8877d8fd/autofreeze-automatically-freezing-model-blocks-to-accelerate-fine-tuning)
-   [[code]]
+   [[code]](https://github.com/YuhanLiu11/AutoFreeze)
 
 3. **Parameter-Efficient Transfer Learning with Diff Pruning**. **ACL 2020**.
 
@@ -101,7 +101,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Yi-Lin Sung, Varun Nair, Colin Raffel*
 
    [[paper]](https://www.aminer.cn/pub/619715fd5244ab9dcb185a4d/training-neural-networks-with-fixed-sparse-masks)
-   [[code]]
+   [[code]](https://github.com/varunnair18/FISH)
 
 ![VFM](https://img.shields.io/badge/VFM-green)
 
@@ -126,7 +126,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Jay Zhangjie Wu, Yixiao Ge, Xintao Wang, Stan Weixian Lei, Yuchao Gu, Yufei Shi, Wynne Hsu, Ying Shan, Xiaohu Qie, Mike Zheng Shou*
 
    [[paper]](https://www.aminer.cn/pub/63a51c5d90e50fcafde93c1b/tune-a-video-one-shot-tuning-of-image-diffusion-models-for-text)
-   [[code]]
+   [[code]](https://github.com/showlab/Tune-A-Video)
 
 ![VLM](https://img.shields.io/badge/VLM-yellow)
 1. **Tuning LayerNorm in Attention: Towards Efficient Multi-Modal LLM Finetuning**. **arXiv 2023**.
@@ -267,7 +267,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Xun Guo, Mingwu Zheng, Liang Hou, Yuan Gao, Yufan Deng, Pengfei Wan, Di Zhang, Yufan Liu, Weiming Hu, Zhengjun Zha, Haibin Huang, Chongyang Ma*
 
    [[paper]](https://www.aminer.cn/pub/658e4adb939a5f4082dbe437/I2V-Adapter:%20A%20General%20Image-to-Video%20Adapter%20for%20Diffusion%20Models)
-   [[code]]()
+   [[code]](https://github.com/KwaiVGI/I2V-Adapter)
    
 4. **Adding Conditional Control to Text-to-Image Diffusion Models**. **ICCV 2023**.
 
@@ -334,7 +334,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Robert L. Logan, Ivana Balazevic, Eric Wallace, Fabio Petroni, Sameer Singh, Sebastian Riedel*
 
    [[paper]](https://www.aminer.cn/pub/60da71c091e0112af847e8c9/cutting-down-on-prompts-and-parameters-simple-few-shot-learning-with-language)
-   [[code]]
+   [[code]](https://github.com/ucinlp/null-prompts)
    
 ##### AutoPrompt
 
@@ -342,8 +342,8 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
 
    *Taylor Shin, Yasaman Razeghi, Robert L. Logan, Eric Wallace, Sameer Singh*
 
-   [[paper]]()
-   [[code]]
+   [[paper]](https://aclanthology.org/2020.emnlp-main.346.pdf)
+   [[code]](https://github.com/ucinlp/autoprompt)
    
 ##### Soft Prompt
 
@@ -352,21 +352,21 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Xiang Lisa Li, Percy Liang*.
  
    [[paper]](https://www.aminer.cn/pub/5ff4336291e01130648dc2f4/prefix-tuning-optimizing-continuous-prompts-for-generation)
-   [[code]]
+   [[code]](https://github.com/XiangLi1999/PrefixTuning)
    
 2. **The Power of Scale for Parameter-Efficient Prompt Tuning**. **EMNLP 2021**.
 
    *Brian Lester, Rami Al-Rfou’, Noah Constant*.
   
    [[paper]](https://www.aminer.cn/pub/607ffd8d91e011772654f712/the-power-of-scale-for-parameter-efficient-prompt-tuning)
-   [[code]]
+   [[code]](https://github.com/mkshing/Prompt-Tuning)
    
 3. **GPT Understands, Too**. **CoRR 2024**.
 
    *Xiao Liu, Yanan Zheng, Zhengxiao Du, Ming Ding, Yujie Qian, Zhilin Yang, Jie Tang*
 
    [[paper]](https://www.aminer.cn/pub/6054886a91e0116f82f2d77f/GPT%20Understands,%20Too)
-   [[code]]
+   [[code]](https://github.com/THUDM/P-tuning)
    
 4. **Differentiable Prompt Makes Pre-trained Language Models Better Few-shot Learners**. **CoRR 2021**.
 
@@ -513,13 +513,22 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    [[paper]](https://www.aminer.cn/pub/64f7fc433fda6d7f06f42b86/delta-lora-fine-tuning-high-rank-parameters-with-the-delta-of-low)
    [[code]]
    
-5. **Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CoRR 2021**.
+5. **A Stronger Mixture of Low-Rank Experts for Fine-Tuning Foundation Models**. **CoRR 2025**.
+
+   *Mengyang Sun, Yihao Wang, Tao Feng, Dan Zhang, Yifan Zhu, Jie Tang*
+  
+   [[paper]](https://arxiv.org/pdf/2502.15828)
+   [[code]](https://github.com/THUDM/MoELoRA_Riemannian)
+ 
+6. **Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CoRR 2021**.
 
    *Peiyu Liu, Ze-Feng Gao, Wayne Xin Zhao, Z. Y. Xie, Zhong-Yi Lu, Ji-Rong Wen*
 
    [[paper]](https://www.aminer.cn/pub/60bec50591e0118491817782/enabling-lightweight-fine-tuning-for-pre-trained-language-model-compression-based-on)
    [[code]](https://github.com/RUCAIBox/MPOP)
-   
+
+
+ 
 ![VFM](https://img.shields.io/badge/VFM-green)
 
 1. **1% VS 100%: Parameter-Efficient Low Rank Adapter for Dense Predictions**. **CVPR 2023**.
@@ -536,7 +545,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *SHIH-YING YEH, Yu-Guan Hsieh, Zhidong Gao, Bernard B W Yang, Giyeong Oh, Yanmin Gong*
 
    [[paper]](https://www.aminer.cn/pub/65ea8c2a13fb2c6cf630e80e/navigating-text-to-image-customization-from-lycoris-fine-tuning-to-model-evaluation)
-   [[code]]
+   [[code]](https://github.com/KohakuBlueleaf/LyCORIS/tree/main)
    
 2. **DiffuseKronA: A Parameter Efficient Fine-tuning Method for Personalized Diffusion Models**. **CoRR 2024**.
 
@@ -550,7 +559,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Yuchao Gu, Xintao Wang, Jay Zhangjie Wu, Yujun Shi, Yunpeng Chen, Zihan Fan, WUYOU XIAO, Rui Zhao, Shuning Chang, Weijia Wu, Yixiao Ge, Ying Shan, Mike Zheng Shou*
 
    [[paper]](https://aminer.cn/pub/647572e0d68f896efa7b79a8/mix-of-show-decentralized-low-rank-adaptation-for-multi-concept-customization-of)
-   [[code]]
+   [[code]](https://github.com/TencentARC/Mix-of-Show)
    
 4. **Navigating Text-to-Image Generative Bias Across Indic Languages**. **ECCV 2024**.
 
@@ -564,7 +573,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Lin Song, Yukang Chen, Shuai Yang, Xiaohan Ding, Yixiao Ge, Ying-Cong Chen, Ying Shan*
 
    [[paper]](https://www.aminer.cn/pub/66e8c12301d2a3fbfc90f94b/low-rank-approximation-for-sparse-attention-in-multi-modal-llms)
-   [[code]]()
+   [[code]]
    
 ### [Hybrid PEFT](#content)
 
@@ -614,7 +623,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    *Enze Xie, Lewei Yao, Han Shi, Zhili Liu, Daquan Zhou, Zhaoqiang Liu, Jiawei Li, Zhenguo Li*
 
    [[paper]](https://www.aminer.cn/pub/6438c502d6db87a14654a6d7/difffit-unlocking-transferability-of-large-diffusion-models-via-simple-parameter-efficient-fine)
-   [[code]]
+   [[code]](https://github.com/mkshing/DiffFit-pytorch)
    
 2. **Towards a Unified View on Visual Parameter-Efficient Transfer Learning**. **CoRR 2022**.
 
@@ -630,7 +639,7 @@ If you find our survey and repository helpful, please kindly cite our paper:
 ```
 @article{zhang2025parameter,
   title={Parameter-Efficient Fine-Tuning for Foundation Models},
-  author={Zhang, Dan and Feng, Tao and Xue, Lilong and Wang, Yuandong and Dong, Yuxiao and Tang, Jie},
+  author={Zhang, Dan and Feng, Tao and Xue, Lilong and Wang, Yuandong and Tang, Jie},
   journal={arXiv preprint arXiv:2501.13787},
   year={2025}
 }
