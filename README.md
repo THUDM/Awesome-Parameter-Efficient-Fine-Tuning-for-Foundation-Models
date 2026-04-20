@@ -483,6 +483,8 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
 
 ### [Reparameterization PEFT](#content)
 
+- **OneComp** [[Paper](https://arxiv.org/abs/2603.28845)] [[Code](https://github.com/FujitsuResearch/OneCompression)] — Combines low-bit PTQ with a LoRA SFT post-process step to recover accuracy after quantization. Related to LoRA-based parameter-efficient adaptation of compressed models. (Arai & Ichikawa, NeurIPS'25; Ichikawa et al., 2026).
+
 ![LLM](https://img.shields.io/badge/LLM-blue)
 
 1. **LoRA: Low-Rank Adaptation of Large Language Models**. **CoRR 2022**.
