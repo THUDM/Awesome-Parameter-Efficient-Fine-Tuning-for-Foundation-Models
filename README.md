@@ -12,10 +12,19 @@
 
 
 ## 🔥 <span id="head1"> *News* </span>
+* [2026/08/11]  "**Parameter-Efficient Fine-Tuning for Foundation Models**" has been accepted by the *International Journal of Computer Vision (IJCV)*.
 * [2025/01/23]  "**Parameter-Efficient Fine-Tuning for Foundation Models**" repo is created.
 
 ## 📝 <span id="head1"> *Introduction* </span>
 This survey aims to provide a comprehensive overview of PEFT techniques applied to diverse FMs and address critical gaps in understanding the techniques, trends, and applications. This survey provides a valuable resource for both newcomers and experts seeking to understand and use the power of PEFT across FMs.
+
+## 🖼️ <span id="figures"> *Updated Figures* </span>
+
+The revised overview and trend figures are available below.
+
+![Updated overview figure](figures/overview.png)
+
+![Updated trend statistics](figures/trends.png)
 
 
 ## 📚 <span id="head1"> *Table of Contents* </span>
@@ -137,7 +146,7 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
    [[code]]
 
 
-### [Addictive PEFT](#content)
+### [Additive PEFT](#content)
 
 ![LLM](https://img.shields.io/badge/LLM-blue)
 
@@ -282,6 +291,65 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
 
    [[paper]](https://www.aminer.cn/pub/66bac1ca01d2a3fbfcd437ed/ControlNeXt:%20Powerful%20and%20Efficient%20Control%20for%20Image%20and%20Video%20Generation)
    [[code]](https://github.com/dvlab-research/ControlNeXt)
+
+6. **Ctrl-adapter: An Efficient and Versatile Framework for Adapting Diverse Controls to Any Diffusion Model**. **arXiv 2024**.
+
+   *Hao Lin, Jaemin Cho, Abhishek Zala, Mohit Bansal*
+
+   [[paper]](https://arxiv.org/abs/2404.09967)
+
+7. **Side4Video: Spatial-Temporal Side Network for Memory-Efficient Image-to-Video Transfer Learning**. **arXiv 2023**.
+
+   *Hao Yao, Wenhao Wu, Zhen Li*
+
+   [[paper]](https://arxiv.org/abs/2311.15769)
+
+8. **StyleCrafter: Enhancing Stylized Text-to-Video Generation with Style Adapter**. **SIGGRAPH Asia 2024 (Journal Track)**.
+
+   *Gaoqiang Liu, Menghan Xia, Xintao Zhang, Haoran Chen, Junle Wang, Xin Wang, Yingqing He, Ying Shan*
+
+   [[paper]](https://arxiv.org/abs/2312.00330)
+
+9. **SimDA: Simple Diffusion Adapter for Efficient Video Generation**. **CVPR 2024**.
+
+   *Zhen Xing, Qi Dai, Han Hu, Zuxuan Wu, Yu-Gang Jiang*
+
+   [[paper]](https://arxiv.org/abs/2308.09710)
+
+10. **ResAdapter: Domain Consistent Resolution Adapter for Diffusion Models**. **AAAI 2025**.
+
+   *Jiaxiang Cheng, Pan Xie, Xin Xia, Jiashi Li, Jie Wu, Yuxi Ren, Huixia Li, Xuefeng Xiao, Min Zheng, Lean Fu*
+
+   [[paper]](https://arxiv.org/abs/2403.02084)
+
+11. **NVS-Adapter: Plug-and-Play Novel View Synthesis from a Single Image**. **ECCV 2024**.
+
+   *Yoonwoo Jeong, Jinwoo Lee, Chiheon Kim, Minsu Cho, Doyup Lee*
+
+   [[paper]](https://arxiv.org/abs/2312.07315)
+   [[code]](https://github.com/POSTECH-CVLab/nvsadapter)
+
+12. **3D-Adapter: Geometry-Consistent Multi-View Diffusion for High-Quality 3D Generation**. **arXiv 2024**.
+
+   *Hansheng Chen, Bohan Shen, Yuxuan Liu, Rui Shi, Liang Zhou, Chenyang Lin, Jiaqi Gu, Haoyu Su, George Wetzstein, Leonidas Guibas*
+
+   [[paper]](https://arxiv.org/abs/2410.18974)
+
+13. **MV-Adapter: Multi-View Consistent Image Generation Made Easy**. **ICCV 2025**.
+
+   *Zehuan Huang, Yuan-Chen Guo, Haoran Wang, Ran Yi, Lizhuang Ma, Yan-Pei Cao, Lu Sheng*
+
+   [[paper]](https://arxiv.org/abs/2412.03632)
+   [[code]](https://github.com/huanngzh/MV-Adapter)
+
+   Here, MV-Adapter denotes the multi-view image generation method. It is distinct from the video-text retrieval method with the same name listed in the VLM literature.
+
+14. **SK-Adapter: Skeleton-Based Structural Control for Native 3D Generation**. **ECCV 2026**.
+
+   *Anbang Wang, Yuzhuo Ao, Shangzhe Wu, Chi-Keung Tang*
+
+   [[paper]](https://arxiv.org/abs/2603.14152)
+   [[code]](https://github.com/sk-adapter/SK-Adapter)
    
 
 ![VLM](https://img.shields.io/badge/VLM-yellow)
@@ -313,6 +381,19 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
 
    [[paper]](https://www.aminer.cn/pub/6189e6d05244ab9dcb76e48f/tip-adapter-training-free-clip-adapter-for-better-vision-language-modeling)
    [[code]](https://github.com/gaopengcuhk/Tip-Adapter)
+
+5. **PAVE: Patching and Adapting Video Large Language Models**. **CVPR 2025**.
+
+   *Zhuoming Liu, Yiquan Li, Khoi Duc Nguyen, Yiwu Zhong, Yin Li*
+
+   [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Liu_PAVE_Patching_and_Adapting_Video_Large_Language_Models_CVPR_2025_paper.html)
+   [[code]](https://github.com/dragonlzm/PAVE)
+
+6. **MV-Adapter: Multimodal Video Transfer Learning for Video Text Retrieval**. **CVPR 2024**.
+
+   *Xiaojie Jin, Bowen Zhang, Weibo Gong, Kai Xu, Xueqing Deng, Peng Wang, Zhao Zhang, Xiaohui Shen, Jiashi Feng*
+
+   [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Jin_MV-Adapter_Multimodal_Video_Transfer_Learning_for_Video_Text_Retrieval_CVPR_2024_paper.html)
    
 
 
@@ -519,6 +600,12 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
   
    [[paper]](https://arxiv.org/pdf/2502.15828)
    [[code]](https://github.com/THUDM/MoELoRA_Riemannian)
+
+6. **TT-LoRA MoE: Unifying Parameter-Efficient Fine-Tuning and Sparse Mixture-of-Experts**. **arXiv 2025**.
+
+   *Pradip Kunwar, Minh N. Vu, Maanak Gupta, Mahmoud Abdelsalam, Manish Bhattarai*
+
+   [[paper]](https://arxiv.org/abs/2504.21190)
  
 6. **Enabling Lightweight Fine-tuning for Pre-trained Language Model Compression Based on Matrix Product Operators**. **CoRR 2021**.
 
@@ -631,6 +718,19 @@ This survey aims to provide a comprehensive overview of PEFT techniques applied 
 
    [[paper]](https://www.aminer.cn/pub/633ba44890e50fcafdfe5020/towards-a-unified-view-on-visual-parameter-efficient-transfer-learning)
    [[code]](https://github.com/bruceyo/V-PETL)
+
+3. **LoRA-Composer: Leveraging Low-Rank Adaptation for Multi-Concept Customization in Training-Free Diffusion Models**. **arXiv 2024**.
+
+   *Yang Yang, Wen Wang, Liang Peng, Chaotian Song, Yao Chen, Hengjia Li, Xiaolong Yang, Qinglin Lu, Deng Cai, Boxi Wu, Wei Liu*
+
+   [[paper]](https://arxiv.org/abs/2403.11627)
+
+4. **ForgeDreamer: Industrial Text-to-3D Generation with Multi-Expert LoRA and Cross-View Hypergraph**. **CVPR 2026 Findings**.
+
+   *Junhao Cai, Deyu Zeng, Junhao Pang, Lini Li, Zongze Wu, Xiaopin Zhong*
+
+   [[paper]](https://arxiv.org/abs/2603.09266)
+   [[code]](https://github.com/Junhaocai27/ForgeDreamer)
    
 ## Citation
 
@@ -639,8 +739,8 @@ If you find our survey and repository helpful, please kindly cite our paper:
 ```
 @article{zhang2025parameter,
   title={Parameter-Efficient Fine-Tuning for Foundation Models},
-  author={Zhang, Dan and Feng, Tao and Xue, Lilong and Wang, Yuandong and Tang, Jie},
-  journal={arXiv preprint arXiv:2501.13787},
-  year={2025}
+  author={Zhang, Dan and Feng, Tao and Xue, Lilong and Wang, Yuandong and Dong, Yuxiao and Tang, Jie},
+  journal={International Journal of Computer Vision},
+  year={2026}
 }
 ```
