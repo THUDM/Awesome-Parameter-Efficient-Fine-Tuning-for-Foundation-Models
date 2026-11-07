@@ -397,6 +397,13 @@ The revised overview and trend figures are available below.
    
 
 
+7. **AWT: Transferring Vision-Language Models via Augmentation, Weighting, and Transportation**. **NeurIPS 2024**.
+
+   *Yuhan Zhu, Yuyang Ji, Zhiyu Zhao, Gangshan Wu, Limin Wang*
+
+   [[paper]](https://proceedings.neurips.cc/paper_files/paper/2024/hash/2d4eaf042567f1c03c086103cc154c1f-Abstract-Conference.html)
+   [[code]](https://github.com/MCG-NJU/AWT)
+
 ### [Prompt PEFT](#content)
 
 ![LLM](https://img.shields.io/badge/LLM-blue)
@@ -561,6 +568,13 @@ The revised overview and trend figures are available below.
    [[paper]](https://www.aminer.cn/pub/64be56873fda6d7f0634f12f/blip-bootstrapping-language-image-pre-training-with-frozen-image-encoders-and-large)
    [[code]](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
    
+
+4. **Efficient Test-Time Prompt Tuning for Vision-Language Models**. **IJCV 2026**.
+
+   *Yuhan Zhu, Guozhen Zhang, Chen Xu, Haocheng Shen, Xiaoxin Chen, Gangshan Wu, Limin Wang*
+
+   [[paper]](https://link.springer.com/article/10.1007/s11263-026-03019-3)
+   [[arXiv]](https://arxiv.org/abs/2408.05775)
 
 ### [Reparameterization PEFT](#content)
 
