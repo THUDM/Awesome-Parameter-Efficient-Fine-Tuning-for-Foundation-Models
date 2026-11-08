@@ -112,6 +112,13 @@ The revised overview and trend figures are available below.
    [[paper]](https://www.aminer.cn/pub/619715fd5244ab9dcb185a4d/training-neural-networks-with-fixed-sparse-masks)
    [[code]](https://github.com/varunnair18/FISH)
 
+6. **SMT: Fine-Tuning Large Language Models with Sparse Matrices**. **ICLR 2025**.
+
+   *Haoze He, Juncheng Billy Li, Xuan Jiang, Heather Miller*
+
+   [[paper]](https://openreview.net/forum?id=GbgCRJedQ7)
+   [[code]](https://github.com/HectorHHZ/Sparse_Matrix_Tuning)
+
 ![VFM](https://img.shields.io/badge/VFM-green)
 
 1. **Learning Transferable Visual Models From Natural Language Supervision**. **ICML 2021**.
